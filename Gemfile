@@ -28,7 +28,10 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 gem 'devise'
 # .env環境変数読み込み
-gem 'detenv_rails'
+gem 'dotenv-rails'
+# style
+gem 'bootstrap'
+gem 'jquery-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
